@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="showText" format="boolean" />
+        <attr name="color" format="color"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="round" format="dimension"></attr>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="max" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="CusButton">
+        <attr name="radiusColor" format="color"></attr>
+        <attr name="radiusRoud" format="dimension"></attr>
+        <attr name="alphaFloat" format="float"></attr>
+    </declare-styleable>
+    <declare-styleable name="LoadingProgress">
+        <attr name="progressColor" format="color"></attr>
+        <attr name="progressRadius" format="dimension"></attr>
+        <attr name="progressWidth" format="dimension"></attr>
+        <attr name="progressDirect"></attr>
+        <attr name="speed"></attr>
+    </declare-styleable>
+
+    <attr name="progressDirect">
+        <enum name="Counter" value="1"/>
+        <enum name="Positive" value="0"/>
+    </attr>
+    <attr name="speed">
+        <enum name="fast" value="1000"/>
+        <enum name="middle" value="2000"/>
+        <enum name="slow" value="3000"/>
+    </attr>
+
+</resources>

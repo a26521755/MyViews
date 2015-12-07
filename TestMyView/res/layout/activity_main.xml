@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:c="http://schemas.android.com/apk/res/com.qing.testmyview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="#c5cae9">
+
+    <!-- <com.qing.testmyview.CircleProgressBar
+        android:id="@+id/cpb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        c:showText="true" 
+        c:textSize="25sp"
+        c:color="#e65100"
+        c:textColor="#9e9e9e"
+        c:round="60dp"
+        c:roundWidth="30dp"/>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示文字"
+        android:onClick="showText"
+        android:layout_centerInParent="true"
+        />
+
+    <com.qing.testmyview.CusButton
+        android:id="@+id/cb"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:text="点击有惊喜" 
+        c:radiusColor="#004d40"
+        c:radiusRoud="15dp"
+        android:background="#009688"
+        android:gravity="center"
+        /> -->
+
+    <com.qing.testmyview.LoadingProgress
+        android:id="@+id/loadingProgress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="60dp"
+        c:progressColor="#025ddf" 
+        />
+
+</RelativeLayout>
